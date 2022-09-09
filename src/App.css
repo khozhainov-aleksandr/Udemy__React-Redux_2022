@@ -5,3 +5,11 @@
   align-items: center;
   gap: 10px;
 }
+
+.App div:last-child {
+  margin-top: 30px;
+}
+
+.App div span {
+  margin-right: 10px;
+}
