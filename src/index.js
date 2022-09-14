@@ -1,8 +1,8 @@
 import ReactDOM from "react-dom";
-import { cofigureStore } from "./store";
+import { configureStore } from "./store";
 import {Root} from "./Root";
 
-const store = cofigureStore();
+const store = configureStore();
 
 const rootElement = document.getElementById("root");
 ReactDOM.render(
